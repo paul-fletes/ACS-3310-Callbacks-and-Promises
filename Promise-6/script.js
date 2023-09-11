@@ -31,7 +31,7 @@ navigator.geolocation.getCurrentPosition(onsuccess, onerror, options);
 
 function getGeolocation(options) {
   return new Promise( (resolve, reject) => {
-    navigator.geolocation.getCurrentPosition(resolve, reject, options);
+    
   } )
 }
 
